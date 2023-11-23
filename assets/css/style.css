@@ -1,32 +1,41 @@
 /* IMPOSTAZIONI GENERALI */
 body {
-  width: 80%;
-  margin: 0 auto;
 }
 .background {
   background-image: url(../img/sfondo.png);
 }
 header {
-  width: 80%;
-  margin: 0 auto;
-  padding: 2em;
+  width: 70%;
+  margin: 2em auto;
+  padding: 10%;
   border: 1px solid black;
+  background-color: rgb(10, 226, 230);
 }
 header img {
-  width: 10em;
+  width: 80%;
   margin: 0 auto;
 }
-
-/* HEADER */
-
-/* MAIN */
-
-/* ELEMENTI NEL MAIN - ARTICLE */
-
-/* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
+h1 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.2em;
+}
+menu button {
+  display: block;
+  margin: 0 auto;
+}
+.logo-epicode {
+  margin-bottom: 1.2em;
+}
+main {
+  border: 1px solid black;
+  width: 90%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+}
+h2 + p {
+  color: slategray;
+}
